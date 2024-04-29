@@ -23,7 +23,7 @@
                 </template>
                 <v-sheet>
                     <v-sheet :elevation="5" width="75vw" height="150" class="mx-15 mt-8 rounded-xl">
-                        <NuxtLink to="/curso1/temas/tema1" style="text-decoration: none;">
+                        <NuxtLink to="/curso2/temas/tema1" style="text-decoration: none;">
                             <div class="d-flex align-center fill-height">
                                 <p class="ml-8 text-black text-h5 font-weight-bold">II.1 Hacking y Hackers</p>
                                 <v-icon class="option ml-4" size="x-large">mdi-arrow-right</v-icon>
@@ -31,23 +31,23 @@
                         </NuxtLink>
                     </v-sheet>
                     <v-sheet :elevation="5" width="75vw" height="150" class="mx-15 my-10 rounded-xl">
-                        <NuxtLink to="/curso1/temas/tema1" style="text-decoration: none;">
+                        <NuxtLink to="/curso2/temas/tema2" style="text-decoration: none;">
                             <div class="d-flex align-center fill-height">
-                                <p class="ml-8 text-black text-h5 font-weight-bold">II.2 Detección de Intrusión</p>
+                                <p class="ml-8 text-black text-h5 font-weight-bold">II.2 Detección de Intrusos</p>
                                 <v-icon class="option ml-4" size="x-large">mdi-arrow-right</v-icon>
                             </div>
                         </NuxtLink>
                     </v-sheet>
                     <v-sheet :elevation="5" width="75vw" height="150" class="mx-15 my-10 rounded-xl" >
-                        <NuxtLink to="/curso1/temas/tema1" style="text-decoration: none;">
+                        <NuxtLink to="/curso2/temas/tema3" style="text-decoration: none;">
                             <div class="d-flex align-center fill-height">
-                                <p class="ml-8 text-black text-h5 font-weight-bold">II.3 Métodos de Detección de Intrusión</p>
+                                <p class="ml-8 text-black text-h5 font-weight-bold">II.3 Acercamiento a la Detección de Intrusos</p>
                                 <v-icon class="option ml-4" size="x-large">mdi-arrow-right</v-icon>
                             </div>
                         </NuxtLink>
                     </v-sheet>
                     <v-sheet :elevation="5" width="75vw" height="150" class="mx-15 my-10 rounded-xl" >
-                        <NuxtLink to="/curso1/temas/tema1" style="text-decoration: none;">
+                        <NuxtLink to="/curso2/temas/tema4" style="text-decoration: none;">
                             <div class="d-flex align-center fill-height">
                                 <p class="ml-8 text-black text-h5 font-weight-bold">II.4 Honeypots y Herramientas de Sniffing</p>
                                 <v-icon class="option ml-4" size="x-large">mdi-arrow-right</v-icon>
@@ -55,7 +55,7 @@
                         </NuxtLink>
                     </v-sheet>
                     <v-sheet :elevation="5" width="75vw" height="150" class="mx-15 my-10 rounded-xl" >
-                        <NuxtLink to="/curso1/temas/tema1" style="text-decoration: none;">
+                        <NuxtLink to="/curso2/temas/tema5" style="text-decoration: none;">
                             <div class="d-flex align-center fill-height">
                                 <p class="ml-8 text-black text-h5 font-weight-bold">II.5 Ejemplo de Sistema: Snort</p>
                                 <v-icon class="option ml-4" size="x-large">mdi-arrow-right</v-icon>
@@ -63,7 +63,7 @@
                         </NuxtLink>
                     </v-sheet>
                     <v-sheet :elevation="5" width="75vw" height="150" class="mx-15 my-10 rounded-xl" >
-                        <NuxtLink to="/curso1/temas/tema1" style="text-decoration: none;">
+                        <NuxtLink to="/curso2/temas/tema6" style="text-decoration: none;">
                             <div class="d-flex align-center fill-height">
                                 <p class="ml-8 text-black text-h5 font-weight-bold">II.6 Firewalls</p>
                                 <v-icon class="option ml-4" size="x-large">mdi-arrow-right</v-icon>
@@ -71,9 +71,17 @@
                         </NuxtLink>
                     </v-sheet>
                     <v-sheet :elevation="5" width="75vw" height="150" class="mx-15 my-10 rounded-xl" >
-                        <NuxtLink to="/curso1/temas/tema1" style="text-decoration: none;">
+                        <NuxtLink to="/curso2/temas/tema7" style="text-decoration: none;">
                             <div class="d-flex align-center fill-height">
                                 <p class="ml-8 text-black text-h5 font-weight-bold">II.7 DDoS y Software Malicioso</p>
+                                <v-icon class="option ml-4" size="x-large">mdi-arrow-right</v-icon>
+                            </div>
+                        </NuxtLink>
+                    </v-sheet>
+                    <v-sheet :elevation="5" width="75vw" height="150" class="mx-15 my-10 rounded-xl" >
+                        <NuxtLink to="/curso2/temas/tema8" style="text-decoration: none;">
+                            <div class="d-flex align-center fill-height">
+                                <p class="ml-8 text-black text-h5 font-weight-bold">II.8 Resumen</p>
                                 <v-icon class="option ml-4" size="x-large">mdi-arrow-right</v-icon>
                             </div>
                         </NuxtLink>

@@ -31,15 +31,15 @@
                         </NuxtLink>
                     </v-sheet>
                     <v-sheet :elevation="5" width="75vw" height="150" class="mx-15 my-10 rounded-xl">
-                        <NuxtLink to="/curso1/temas/tema1" style="text-decoration: none;">
+                        <NuxtLink to="/curso1/temas/tema2" style="text-decoration: none;">
                             <div class="d-flex align-center fill-height">
-                                <p class="ml-8 text-black text-h5 font-weight-bold">I.2 La Web: Superficie, Profunda and Oscura</p>
+                                <p class="ml-8 text-black text-h5 font-weight-bold">I.2 La Web: Superficie, Profunda y Oscura</p>
                                 <v-icon class="option ml-4" size="x-large">mdi-arrow-right</v-icon>
                             </div>
                         </NuxtLink>
                     </v-sheet>
                     <v-sheet :elevation="5" width="75vw" height="150" class="mx-15 my-10 rounded-xl" >
-                        <NuxtLink to="/curso1/temas/tema1" style="text-decoration: none;">
+                        <NuxtLink to="/curso1/temas/tema3" style="text-decoration: none;">
                             <div class="d-flex align-center fill-height">
                                 <p class="ml-8 text-black text-h5 font-weight-bold">I.3 Tendencias de la Seguridad</p>
                                 <v-icon class="option ml-4" size="x-large">mdi-arrow-right</v-icon>
@@ -47,7 +47,7 @@
                         </NuxtLink>
                     </v-sheet>
                     <v-sheet :elevation="5" width="75vw" height="150" class="mx-15 my-10 rounded-xl" >
-                        <NuxtLink to="/curso1/temas/tema1" style="text-decoration: none;">
+                        <NuxtLink to="/curso1/temas/tema4" style="text-decoration: none;">
                             <div class="d-flex align-center fill-height">
                                 <p class="ml-8 text-black text-h5 font-weight-bold">I.4 La Arquitectura de Seguridad OSI</p>
                                 <v-icon class="option ml-4" size="x-large">mdi-arrow-right</v-icon>
@@ -55,7 +55,7 @@
                         </NuxtLink>
                     </v-sheet>
                     <v-sheet :elevation="5" width="75vw" height="150" class="mx-15 my-10 rounded-xl" >
-                        <NuxtLink to="/curso1/temas/tema1" style="text-decoration: none;">
+                        <NuxtLink to="/curso1/temas/tema5" style="text-decoration: none;">
                             <div class="d-flex align-center fill-height">
                                 <p class="ml-8 text-black text-h5 font-weight-bold">I.5 Amenazas contra la Seguridad: Pasivas y Activas</p>
                                 <v-icon class="option ml-4" size="x-large">mdi-arrow-right</v-icon>
@@ -63,7 +63,7 @@
                         </NuxtLink>
                     </v-sheet>
                     <v-sheet :elevation="5" width="75vw" height="150" class="mx-15 my-10 rounded-xl" >
-                        <NuxtLink to="/curso1/temas/tema1" style="text-decoration: none;">
+                        <NuxtLink to="/curso1/temas/tema6" style="text-decoration: none;">
                             <div class="d-flex align-center fill-height">
                                 <p class="ml-8 text-black text-h5 font-weight-bold">I.6 Mecanismos y Servicios de Seguridad</p>
                                 <v-icon class="option ml-4" size="x-large">mdi-arrow-right</v-icon>
@@ -71,7 +71,7 @@
                         </NuxtLink>
                     </v-sheet>
                     <v-sheet :elevation="5" width="75vw" height="150" class="mx-15 my-10 rounded-xl" >
-                        <NuxtLink to="/curso1/temas/tema1" style="text-decoration: none;">
+                        <NuxtLink to="/curso1/temas/tema7" style="text-decoration: none;">
                             <div class="d-flex align-center fill-height">
                                 <p class="ml-8 text-black text-h5 font-weight-bold">I.7 Un Modelo de la Seguridad de Red</p>
                                 <v-icon class="option ml-4" size="x-large">mdi-arrow-right</v-icon>
@@ -79,7 +79,7 @@
                         </NuxtLink>
                     </v-sheet>
                     <v-sheet :elevation="5" width="75vw" height="150" class="mx-15 my-10 rounded-xl" >
-                        <NuxtLink to="/curso1/temas/tema1" style="text-decoration: none;">
+                        <NuxtLink to="/curso1/temas/tema8" style="text-decoration: none;">
                             <div class="d-flex align-center fill-height">
                                 <p class="ml-8 text-black text-h5 font-weight-bold">I.8 Métodos para la Defensa: Biométricos</p>
                                 <v-icon class="option ml-4" size="x-large">mdi-arrow-right</v-icon>

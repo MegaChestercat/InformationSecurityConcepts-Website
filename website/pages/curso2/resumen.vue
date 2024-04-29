@@ -63,7 +63,7 @@
         </div>
       </div>
       <div class="d-flex justify-center mt-8">
-        <button @click="navigate('/curso2/dashboard')">Continuar</button>
+        <v-btn to='/curso2/dashboard' size="x-large" width="70vh" append-icon="mdi-arrow-right" rounded="xl"color="success">Continuar</v-btn>
       </div>
     </div>
   </template>

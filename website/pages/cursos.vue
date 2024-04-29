@@ -16,7 +16,7 @@
                             <p class="text-h2 text-center font-weight-medium">Curso 1</p>
                             <p class="text-h6 text-center font-weight-medium">4.2/5</p>
                             <div class="d-flex justify-center">
-                                <v-btn to="/curso1/resumen" width="300" color="#55FC7B" class="mx-15  mt-5">Fundamentos I</v-btn>
+                                <v-btn to="/curso1/resumen" width="450" color="#55FC7B" class="mx-15  mt-5">Introducción a la Seguridad Informática</v-btn>
                             </div>
                         </v-sheet>
                     </v-slide-group-item>
@@ -28,7 +28,7 @@
                             <p class="text-h2 text-center font-weight-medium">Curso 2</p>
                             <p class="text-h6 text-center font-weight-medium">3.7/5</p>
                             <div class="d-flex justify-center">
-                                <v-btn to="/curso2/resumen" width="300" color="#55FC7B" class="mx-15 mt-5">Fundamentos II</v-btn>
+                                <v-btn to="/curso2/resumen" width="450" color="#55FC7B" class="mx-15 mt-5">Hacking y Sistema de Detección de Intrusos</v-btn>
                             </div>
                         </v-sheet>
                     </v-slide-group-item>
@@ -40,7 +40,7 @@
                             <p class=" text-h2 text-center font-weight-medium">Curso 3</p>
                             <p class="text-h6 text-center font-weight-medium">4.7/5</p>
                             <div class="d-flex justify-center">
-                                <v-btn to="/curso3/resumen" width="300" color="#55FC7B" class="mx-15 mt-5">Fundamentos III</v-btn>
+                                <v-btn to="/curso3/resumen" width="450" color="#55FC7B" class="mx-15 mt-5">Symmetric Ciphers</v-btn>
                             </div>
                         </v-sheet>
                     </v-slide-group-item>

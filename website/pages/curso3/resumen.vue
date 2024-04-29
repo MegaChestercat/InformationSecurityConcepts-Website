@@ -1,6 +1,6 @@
 <!-- <template>
     <div class="">
-        <p class="text-h5 font-weight-bold text-center mt-16">El curso de fundamentos III posee el siguiente contenido:</p>
+        <p class="text-h5 font-weight-bold text-center mt-16">El curso de "Cifrado Simétrico" posee el siguiente contenido:</p>
         <v-container class="mt-8">
             <v-row justify="center">
                 <v-col>
@@ -41,7 +41,7 @@
             </v-row>
         </v-container>
         <div class="d-flex justify-center">
-            <v-btn width="70vw" color="success" append-icon="mdi-arrow-right" to="/curso1/dashboard">
+            <v-btn width="70vw" color="success" append-icon="mdi-arrow-right" to="/curso3/dashboard">
                 Continuar
             </v-btn>
         </div>

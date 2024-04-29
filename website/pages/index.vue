@@ -1,14 +1,4 @@
 <template>
-  <div class="container">
-    <!-- Search bar -->
-    <div class="search-container">
-      <input type="text" v-model="searchQuery" placeholder="Search..." @input="searchItems" class="search-bar" />
-      <i class="fas fa-search search-icon"></i>
-    </div>
-
-    <!-- Your existing content goes here -->
-  </div>
-
   <v-col>
     <h1
     class="mb-6"

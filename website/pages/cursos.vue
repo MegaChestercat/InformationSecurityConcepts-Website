@@ -11,36 +11,36 @@
                     <v-slide-group-item >
                         <v-sheet :elevation="3" width="500" height="330" class="my-10 mx-7">
                             <div class="d-flex justify-center">
-                                <v-img height="170" width="500" src="../assets/auth_bg.png" cover></v-img>
+                                <v-img height="170" width="500" src="https://www.incibe.es/sites/default/files/images/ransomware/cabecera-ransomeware.png" cover></v-img>
                             </div>
                             <p class="text-h2 text-center font-weight-medium">Curso 1</p>
-                            <p class="text-h6 text-center font-weight-medium">4.2/5</p>
+                            <p class="text-h6 text-center font-weight-medium">Introducción a la Seguridad Informática</p>
                             <div class="d-flex justify-center">
-                                <v-btn to="/curso1/resumen" width="450" color="#55FC7B" class="mx-15  mt-5">Introducción a la Seguridad Informática</v-btn>
+                                <v-btn to="/curso1/resumen" width="300" color="#55FC7B" class="mx-15  mt-5">Ingresar</v-btn>
                             </div>
                         </v-sheet>
                     </v-slide-group-item>
                     <v-slide-group-item>
                         <v-sheet :elevation="3" width="500" height="330" class="mr-7 my-10">
                             <div class="d-flex justify-center">
-                                <v-img height="170" width="500" src="../assets/encryption.jpg" cover></v-img>
+                                <v-img height="170" width="500" src="https://assets-global.website-files.com/62e153e41d6ee298cc9a98f7/631884aaffc021f328c0ef72_Firewall.png" cover></v-img>
                             </div>
                             <p class="text-h2 text-center font-weight-medium">Curso 2</p>
-                            <p class="text-h6 text-center font-weight-medium">3.7/5</p>
+                            <p class="text-h6 text-center font-weight-medium">Hacking y Sistemas de Detección de Intrusiones</p>
                             <div class="d-flex justify-center">
-                                <v-btn to="/curso2/resumen" width="450" color="#55FC7B" class="mx-15 mt-5">Hacking y Sistema de Detección de Intrusos</v-btn>
+                                <v-btn to="/curso2/resumen" width="300" color="#55FC7B" class="mx-15 mt-5">Ingresar</v-btn>
                             </div>
                         </v-sheet>
                     </v-slide-group-item>
                     <v-slide-group-item>
                         <v-sheet :elevation="3" width="500" height="330" class="my-7 my-10">
                             <div class="d-flex justify-center">
-                                <v-img height="170" width="500" src="../assets/auth_bg.png" cover></v-img>
+                                <v-img height="170" width="500" src="../assets/encryption.jpg" cover></v-img>
                             </div>
                             <p class=" text-h2 text-center font-weight-medium">Curso 3</p>
-                            <p class="text-h6 text-center font-weight-medium">4.7/5</p>
+                            <p class="text-h6 text-center font-weight-medium">Cifrado Simétrico</p>
                             <div class="d-flex justify-center">
-                                <v-btn to="/curso3/resumen" width="450" color="#55FC7B" class="mx-15 mt-5">Symmetric Ciphers</v-btn>
+                                <v-btn to="/curso3/resumen" width="300" color="#55FC7B" class="mx-15 mt-5">Ingresar</v-btn>
                             </div>
                         </v-sheet>
                     </v-slide-group-item>

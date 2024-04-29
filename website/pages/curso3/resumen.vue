@@ -41,7 +41,7 @@
             </v-row>
         </v-container>
         <div class="d-flex justify-center">
-            <v-btn width="70vw" color="success" append-icon="mdi-arrow-right" to="/curso1/dashboard">
+            <v-btn width="70vw" color="success" append-icon="mdi-arrow-right" to="/curso3/dashboard">
                 Continuar
             </v-btn>
         </div>

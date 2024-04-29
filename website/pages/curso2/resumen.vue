@@ -1,6 +1,6 @@
 <template>
     <div class="">
-        <p class="text-h5 font-weight-bold text-center mt-16">El curso de fundamentos II posee el siguiente contenido:</p>
+        <p class="text-h5 font-weight-bold text-center mt-16">El curso de "Hacking y Sistemas de Detección de Intrusiones" posee el siguiente contenido:</p>
         <v-container class="mt-8">
             <v-row justify="center">
                 <v-col>

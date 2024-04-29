@@ -56,7 +56,7 @@
 
 <template>
     <div class="container">
-      <h2 class="text-center mt-16">El curso de fundamentos II posee el siguiente contenido:</h2>
+      <h2 class="text-center mt-16">El curso de "Cifrado Cimétrico" posee el siguiente contenido:</h2>
       <div class="content">
         <div class="card" v-for="(item, index) in items" :key="index" @click="navigate(item.link)">
           <img :src="item.image" alt="Imagen" class="card-img">
@@ -77,42 +77,42 @@
           {
             title: "Introducción",
             image: "https://cdn.pixabay.com/photo/2017/10/05/11/34/finger-2819098_1280.png",
-            link: "/curso1/dashboard"
+            
           },
           {
             title: "Modelo de Symmetric Cipher",
             image: "https://cdn.pixabay.com/photo/2013/07/12/18/56/strongbox-154022_1280.png",
-            link: "/curso1/dashboard"
+            
           },
           {
             title: "Técnicas de Substitución",
             image: "https://cdn.pixabay.com/photo/2021/02/15/18/45/lock-6018806_1280.png",
-            link: "/curso1/dashboard"
+            
           },
           {
             title: "Técnias de Transportación",
             image: "https://cdn.pixabay.com/photo/2014/04/03/10/23/mole-310269_1280.png",
-            link: "/curso1/dashboard"
+            
           },
           {
             title: "Esteganografía",
             image: "https://cdn.pixabay.com/photo/2012/04/23/16/53/danger-39045_1280.png",
-            link: "/curso1/dashboard"
+            
           },
           {
             title: "Estándar de Encriptación de Datos (DES)",
             image: "https://cdn.pixabay.com/photo/2012/04/11/12/59/lock-28112_1280.png",
-            link: "/curso1/dashboard"
+            
           },
           {
             title: "Un Ejemplo de DES",
             image: "https://cdn.pixabay.com/photo/2013/07/12/19/22/firewall-154670_1280.png",
-            link: "/curso1/dashboard"
+            
           },
           {
             title: "La Fuerza de DES y Triple DES",
             image: "https://cdn.pixabay.com/photo/2018/10/30/17/23/lock-3784171_1280.png",
-            link: "/curso1/dashboard"
+            
           }
         ]
       };
@@ -153,6 +153,7 @@
   .card:hover {
     background: #f0f0f0;
     border-width: 2px;
+    cursor: default;
   }
   
   .card-img {

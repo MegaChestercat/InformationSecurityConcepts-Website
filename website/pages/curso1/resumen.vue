@@ -85,7 +85,7 @@ v-sheet{
 
  <template>
     <div class="container">
-      <h2 class="text-center mt-16">El curso de fundamentos I posee el siguiente contenido:</h2>
+      <h2 class="text-center mt-16">El curso de "Introducción a la Seguridad Informática" posee el siguiente contenido:</h2>
       <div class="content">
         <div class="card" v-for="(item, index) in items" :key="index" @click="navigate(item.link)">
           <img :src="item.image" alt="Imagen" class="card-img">
@@ -93,7 +93,7 @@ v-sheet{
         </div>
       </div>
       <div class="d-flex justify-center mt-8">
-        <button @click="navigate('/curso1/dashboard')">Continuar</button>
+        <button @click="navigate('/curso2/dashboard')">Continuar</button>
       </div>
     </div>
   </template>
@@ -106,42 +106,42 @@ v-sheet{
           {
             title: "Motivación: Amenazas de Ciberseguridad",
             image: "https://d35aaqx5ub95lt.cloudfront.net/images/user-motivation-survey/brain-training.svg",
-            link: "/curso1/dashboard"
+            
           },
           {
             title: "La Web: Superficie, Deep y Dark",
             image: "https://cdn.pixabay.com/photo/2015/12/08/19/08/castle-1083570_1280.png",
-            link: "/curso1/dashboard"
+            
           },
           {
             title: "Tendencias en la Seguridad",
             image: "https://cdn.pixabay.com/photo/2015/12/10/16/39/shield-1086702_1280.png",
-            link: "/curso1/dashboard"
+            
           },
           {
             title: "La Arquitectura de Seguridad OSI",
             image: "https://d35aaqx5ub95lt.cloudfront.net/images/user-motivation-survey/job-opportunities.svg",
-            link: "/curso1/dashboard"
+            
           },
           {
             title: "Amenazas en la Seguridad: Pasivas y Activas",
             image: "https://d35aaqx5ub95lt.cloudfront.net/images/user-motivation-survey/school.svg",
-            link: "/curso1/dashboard"
+            
           },
           {
             title: "Servicios de Seguridad y Mecanismos",
             image: "https://cdn.pixabay.com/photo/2013/07/12/19/23/vault-154685_1280.png",
-            link: "/curso1/dashboard"
+            
           },
           {
             title: "Un Modelo para la Seguridad en la Red",
             image: "https://cdn.pixabay.com/photo/2016/01/03/11/32/wireless-signal-1119306_1280.png",
-            link: "/curso1/dashboard"
+            
           },
           {
             title: "Métodos de Defensa: Biométricos",
             image: "https://cdn.pixabay.com/photo/2017/12/27/10/14/image-3042333_1280.png",
-            link: "/curso1/dashboard"
+            
           }
         ]
       };
@@ -182,6 +182,7 @@ v-sheet{
   .card:hover {
     background: #f0f0f0;
     border-width: 2px;
+    cursor: default;
   }
   
   .card-img {

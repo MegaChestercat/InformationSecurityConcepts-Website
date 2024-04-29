@@ -55,7 +55,7 @@
 
 <template>
     <div class="container">
-      <h2 class="text-center mt-16">El curso de fundamentos II posee el siguiente contenido:</h2>
+      <h2 class="text-center mt-16">El curso de "Hacking y Sistemas de Detección de Intrusiones" posee el siguiente contenido:</h2>
       <div class="content">
         <div class="card" v-for="(item, index) in items" :key="index" @click="navigate(item.link)">
           <img :src="item.image" alt="Imagen" class="card-img">
@@ -76,42 +76,42 @@
           {
             title: "Hacking y Hackers",
             image: "https://cdn.pixabay.com/photo/2018/08/18/00/32/hunter-3614043_1280.png",
-            link: "/curso1/dashboard"
+            
           },
           {
             title: "Detección de Intrusos",
             image: "https://cdn.pixabay.com/photo/2020/04/07/15/07/vault-5013752_1280.png",
-            link: "/curso1/dashboard"
+            
           },
           {
             title: "Acercamiento a la Detección de Intrusos",
             image: "https://cdn.pixabay.com/photo/2014/04/03/10/53/shredder-311638_1280.png",
-            link: "/curso1/dashboard"
+            
           },
           {
             title: "Honeypots y Herramientas de Sniffing",
             image: "https://cdn.pixabay.com/photo/2017/01/30/14/11/blue-light-2020909_1280.png",
-            link: "/curso1/dashboard"
+            
           },
           {
             title: "Ejemplo de Sistema: Snort",
             image: "https://cdn.pixabay.com/photo/2020/07/02/04/24/eye-5361679_1280.png",
-            link: "/curso1/dashboard"
+            
           },
           {
             title: "Firewalls",
             image: "https://cdn.pixabay.com/photo/2012/04/12/11/07/firewall-29503_1280.png",
-            link: "/curso1/dashboard"
+            
           },
           {
             title: "DDoS y Software Malicioso",
             image: "https://cdn.pixabay.com/photo/2012/04/25/00/33/virus-41379_1280.png",
-            link: "/curso1/dashboard"
+            
           },
           {
             title: "Resumen",
             image: "https://cdn.pixabay.com/photo/2013/07/13/12/12/camera-159401_1280.png",
-            link: "/curso1/dashboard"
+            
           }
         ]
       };
@@ -152,6 +152,7 @@
   .card:hover {
     background: #f0f0f0;
     border-width: 2px;
+    cursor: default;
   }
   
   .card-img {

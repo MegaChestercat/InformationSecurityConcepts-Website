@@ -16,19 +16,19 @@
                             <p class="text-h2 text-center font-weight-medium">Curso 1</p>
                             <p class="text-h6 text-center font-weight-medium">4.2/5</p>
                             <div class="d-flex justify-center">
-                                <v-btn to="/curso1" width="300" color="#55FC7B" class="mx-15  mt-5">Fundamentos I</v-btn>
+                                <v-btn to="/curso1/resumen" width="300" color="#55FC7B" class="mx-15  mt-5">Fundamentos I</v-btn>
                             </div>
                         </v-sheet>
                     </v-slide-group-item>
                     <v-slide-group-item>
                         <v-sheet :elevation="3" width="500" height="330" class="mr-7 my-10">
                             <div class="d-flex justify-center">
-                                <v-img height="170" width="500" src="../assets/auth_bg.png" cover></v-img>
+                                <v-img height="170" width="500" src="../assets/encryption.jpg" cover></v-img>
                             </div>
                             <p class="text-h2 text-center font-weight-medium">Curso 2</p>
                             <p class="text-h6 text-center font-weight-medium">3.7/5</p>
                             <div class="d-flex justify-center">
-                                <v-btn to="/curso1" width="300" color="#55FC7B" class="mx-15 mt-5">Fundamentos II</v-btn>
+                                <v-btn to="/curso2/resumen" width="300" color="#55FC7B" class="mx-15 mt-5">Fundamentos II</v-btn>
                             </div>
                         </v-sheet>
                     </v-slide-group-item>
@@ -40,7 +40,7 @@
                             <p class=" text-h2 text-center font-weight-medium">Curso 3</p>
                             <p class="text-h6 text-center font-weight-medium">4.7/5</p>
                             <div class="d-flex justify-center">
-                                <v-btn to="/curso1" width="300" color="#55FC7B" class="mx-15 mt-5">Fundamentos III</v-btn>
+                                <v-btn to="/curso3/resumen" width="300" color="#55FC7B" class="mx-15 mt-5">Fundamentos III</v-btn>
                             </div>
                         </v-sheet>
                     </v-slide-group-item>

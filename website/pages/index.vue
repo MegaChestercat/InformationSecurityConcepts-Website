@@ -1,6 +1,6 @@
 <template>
   <v-col>
-    <h1 class="mb-6">Quick Access</h1>
+    <h1 class="mb-6 ml-2">Acceso Rápido</h1>
     <div class="scroll-container">
       <v-row class="mx-auto">
         <v-slide-group show-arrows>
@@ -31,7 +31,7 @@
         </v-slide-group>
       </v-row>
 
-      <h1 class="mt-6">Previews</h1>
+      <h1 class="mt-6 ml-2">Temas Recomendados</h1>
     
       <v-row>
         <v-slide-group show-arrows>

@@ -2,7 +2,7 @@
     <div>
         <div class="mt-10 ml-15">
             <p class="text-h3 font-weight-black">Selecciona tu propio camino.</p>
-            <p class="mt-7 text-h4 font-weight-black">Tu eliges como!</p>
+            <p class="mt-7 text-h4 font-weight-black">Tú eliges como!</p>
             <v-divider :thickness="5" color='orange' width="100" class="ml-15 mt-8 border-opacity-100"></v-divider>
         </div>
         <div class="mt-10">

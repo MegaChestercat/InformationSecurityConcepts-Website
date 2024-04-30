@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-      <h1>Amenazas a la Ciberseguridad</h1>
+      <h1 class="text-center mb-5 font-weight-bold">Amenazas a la Ciberseguridad</h1>
       <div class="threats">
         <div class="threat">
           <h2>Malware</h2>
@@ -26,6 +26,9 @@
           <h2>Ataques de Intermediarios (Man-in-the-Middle)</h2>
           <p>En un ataque de intermediario, un atacante intercepta y altera la comunicación entre dos partes sin su conocimiento. Esto puede permitir al atacante robar datos sensibles o modificar la información transmitida.</p>
         </div>
+      </div>
+      <div class="d-flex justify-center">
+        <v-btn to="/curso1/temas/tema2" color="success" size="large" class="my-10">Ir al siguiente tema</v-btn>
       </div>
     </div>
   </template>

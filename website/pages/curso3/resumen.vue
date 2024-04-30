@@ -85,12 +85,12 @@
             
           },
           {
-            title: "Técnicas de Substitución",
+            title: "Técnicas de Sustitución",
             image: "https://cdn.pixabay.com/photo/2021/02/15/18/45/lock-6018806_1280.png",
             
           },
           {
-            title: "Técnias de Transportación",
+            title: "Técnias de Transposición",
             image: "https://cdn.pixabay.com/photo/2014/04/03/10/23/mole-310269_1280.png",
             
           },

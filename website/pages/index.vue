@@ -45,18 +45,17 @@
               cover
             >
               <v-card-title>
-                <div style="margin-top: 10px; font-weight: bold;">Advanced Encryption Standard</div></v-card-title>
+                <div style="margin-top: 10px; font-weight: bold;">La Arquitectura de Seguridad OSI</div></v-card-title>
             </v-img>
 
-            <v-card-subtitle class="pt-4">Course #1</v-card-subtitle>
+            <v-card-subtitle class="pt-4">Curso 1 - Tema 4</v-card-subtitle>
 
             <v-card-text>
-              <div>Take a closer look into the encryption algorithm used by WhatsApp</div>
+              <div>Conoce las 7 capas que caracterizan la comunicación de red y siembran las bases de la seguridad informática.</div>
             </v-card-text>
 
             <v-card-actions>
-              <v-btn color="orange">Begin</v-btn>
-              <v-btn color="orange">More</v-btn>
+              <v-btn to="/curso1/temas/tema4" color="orange" block>Begin</v-btn>
             </v-card-actions>
           </v-card>
 
@@ -70,18 +69,17 @@
               cover
             >
               <v-card-title>
-                <div style="margin-top: 10px; font-weight: bold;">Triple Data Encryption Standard</div></v-card-title>
+                <div style="margin-top: 10px; font-weight: bold;">Detección de Intrusos</div></v-card-title>
             </v-img>
 
-            <v-card-subtitle class="pt-4">Course #2</v-card-subtitle>
+            <v-card-subtitle class="pt-4">Curso 2 - Tema 2</v-card-subtitle>
 
             <v-card-text>
-              <div>Take a closer look into this 3 layer encryption standard</div>
+              <div>Conoce más acerca de la estrategia para lograr detectar a posibles intrusos dentro de un sistema informático.</div>
             </v-card-text>
 
             <v-card-actions>
-              <v-btn color="orange">Begin</v-btn>
-              <v-btn color="orange">More</v-btn>
+              <v-btn to="/curso2/temas/tema2" color="orange" block>Begin</v-btn>
             </v-card-actions>
           </v-card>
 
@@ -99,16 +97,14 @@
               </v-card-title>
             </v-img>
 
-            <v-card-subtitle class="pt-4">Course #3</v-card-subtitle>
+            <v-card-subtitle class="pt-4">Curso 3 - Tema 6</v-card-subtitle>
 
             <v-card-text>
-              <div>Get to know the basics of criptography with the first version DES</div>
+              <div>Conoce las bases sobre uno de los primeros algoritmos de cifrado moderno.</div>
             </v-card-text>
 
             <v-card-actions>
-              <v-btn color="orange">Begin</v-btn>
-
-              <v-btn color="orange">More</v-btn>
+              <v-btn to="/curso3/temas/tema6" color="orange" block>Ir</v-btn>
             </v-card-actions>
           </v-card>
         </v-slide-group>

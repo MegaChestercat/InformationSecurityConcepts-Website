@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h1>Arquitectura de Seguridad OSI</h1>
+    <h1 class="text-center mb-5 font-weight-bold">Arquitectura de Seguridad OSI</h1>
     <div class="osi">
       <div class="layer">
         <h2>Capa 1: Física</h2>
@@ -37,6 +37,9 @@
         <p>La capa de aplicación se encarga de proporcionar servicios de red a las aplicaciones de usuario.</p>
         <p>Los riesgos de seguridad en esta capa incluyen los ataques de phishing, los ataques de malware y los ataques de ingeniería social dirigidos a los usuarios finales.</p>
       </div>
+    </div>
+    <div class="d-flex justify-center">
+      <v-btn to="/curso1/temas/tema5" color="success" size="large" class="my-10">Ir al siguiente tema</v-btn>
     </div>
   </div>
 </template>

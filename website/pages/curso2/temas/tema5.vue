@@ -61,6 +61,9 @@
         <p>Snort desempeña un papel crucial en la ciberseguridad al proporcionar una capa adicional de defensa contra amenazas cibernéticas. Su capacidad para detectar y responder a actividades maliciosas en tiempo real ayuda a las organizaciones a proteger sus activos digitales y a mantener la integridad y disponibilidad de sus redes. 
         Además, al ser de código abierto, Snort es accesible para una amplia comunidad de usuarios y desarrolladores, lo que fomenta la colaboración y la mejora continua de la seguridad cibernética.</p>
       </div>
+      <div class="d-flex justify-center">
+        <v-btn to="/curso2/temas/tema6" color="success" size="large" class="my-10">Ir al siguiente tema</v-btn>
+      </div>
     </div>
   </template>
   

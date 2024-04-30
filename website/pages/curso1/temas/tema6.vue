@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h1>Mecanismos y Servicios de Seguridad</h1>
+    <h1 class="text-center mb-5 font-weight-bold">Mecanismos y Servicios de Seguridad</h1>
     <div class="mechanisms">
       <div class="authentication">
         <h2>Autenticación</h2>
@@ -38,6 +38,9 @@
           <li>IPS basados en red: Interceptan y bloquean el tráfico malicioso en tiempo real para proteger la red.</li>
         </ul>
       </div>
+    </div>
+    <div class="d-flex justify-center">
+      <v-btn to="/curso1/temas/tema7" color="success" size="large" class="my-10">Ir al siguiente tema</v-btn>
     </div>
   </div>
 </template>

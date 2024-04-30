@@ -62,6 +62,9 @@
       <div class="texto threat">
         <p>En resumen, los firewalls son una parte crucial de la estrategia de seguridad de cualquier organización, pero es importante entender sus tipos, beneficios, limitaciones y subtemas relacionados para implementarlos de manera efectiva y mitigar los riesgos de seguridad.</p>
       </div>
+      <div class="d-flex justify-center">
+        <v-btn to="/curso2/temas/tema7" color="success" size="large" class="my-10">Ir al siguiente tema</v-btn>
+      </div>
     </div>
   </template>
   

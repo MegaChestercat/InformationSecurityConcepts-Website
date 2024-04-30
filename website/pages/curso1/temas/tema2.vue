@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-      <h1>Capas de la Web</h1>
+      <h1 class="text-center mb-5 font-weight-bold">Capas de la Web</h1>
       <div class="layers">
         <div class="layer">
           <h2>Web Superficial</h2>
@@ -20,6 +20,9 @@
           <p>La web oscura es conocida por ser un lugar donde se llevan a cabo actividades ilegales y clandestinas, como la venta de drogas, armas, información robada y otros bienes y servicios ilegales.</p>
           <p>Si bien la web oscura tiene una reputación negativa debido a sus actividades ilícitas, también puede ser utilizada por periodistas, activistas y usuarios preocupados por la privacidad para comunicarse y compartir información de manera segura y anónima.</p>
         </div>
+      </div>
+      <div class="d-flex justify-center">
+        <v-btn to="/curso1/temas/tema3" color="success" size="large" class="my-10">Ir al siguiente tema</v-btn>
       </div>
     </div>
   </template>

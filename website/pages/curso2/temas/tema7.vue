@@ -78,6 +78,9 @@
       <div class="texto threat">
         <p>La prevención efectiva de ataques DDoS y software malicioso requiere una combinación de tecnologías de seguridad, prácticas de seguridad sólidas y conciencia de los usuarios para proteger eficazmente los sistemas y datos contra estas amenazas cada vez más frecuentes y sofisticadas.</p>
       </div>
+      <div class="d-flex justify-center">
+        <v-btn to="/curso2/temas/tema8" color="success" size="large" class="my-10">Ir al siguiente tema</v-btn>
+      </div>
     </div>
   </template>
   

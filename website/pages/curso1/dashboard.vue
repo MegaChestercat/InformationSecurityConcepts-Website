@@ -89,13 +89,6 @@
                 </v-sheet>
             </v-menu>
 
-            <v-sheet :elevation="5" width="75vw" height="150" class="ml-15 my-10 rounded-xl" >
-                <div class="d-flex align-center fill-height">
-                    <p class="ml-8 text-black text-h5 font-weight-bold">Prueba General</p>
-                    <v-icon class="option ml-4" size="x-large">mdi-arrow-right</v-icon>
-                </div>
-            </v-sheet>
-
             <v-menu>
         <template v-slot:activator="{ props: menu }">
           <v-sheet :elevation="5" width="75vw" height="150" class="ml-15 my-10 rounded-xl" v-bind="menu">

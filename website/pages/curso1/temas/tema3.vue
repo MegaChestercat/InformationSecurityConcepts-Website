@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-      <h1>Tendencias de Seguridad</h1>
+      <h1 class="text-center mb-5 font-weight-bold">Tendencias de Seguridad</h1>
       <div class="trends">
         <div class="trend">
           <h2>Ransomware</h2>
@@ -32,6 +32,9 @@
           <p>A medida que el IoT continúa creciendo, también lo hace el riesgo de seguridad cibernética. Los dispositivos IoT suelen tener medidas de seguridad deficientes, lo que los hace vulnerables a los ataques de hackers.</p>
           <p>Para proteger los dispositivos IoT, es importante cambiar las contraseñas predeterminadas, mantener actualizado el firmware y utilizar soluciones de seguridad como firewalls y antivirus.</p>
         </div>
+      </div>
+      <div class="d-flex justify-center">
+        <v-btn to="/curso1/temas/tema4" color="success" size="large" class="my-10">Ir al siguiente tema</v-btn>
       </div>
     </div>
   </template>

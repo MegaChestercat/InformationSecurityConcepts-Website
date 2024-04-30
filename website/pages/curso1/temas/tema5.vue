@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h1>Amenazas contra la Seguridad</h1>
+    <h1 class="text-center mb-5 font-weight-bold">Amenazas contra la Seguridad</h1>
     <div class="threats">
       <div class="passive-threats">
         <h2>Amenazas Pasivas</h2>
@@ -22,6 +22,9 @@
           <li>Phishing: El atacante utiliza correos electrónicos o mensajes falsos para engañar a los usuarios y obtener información confidencial, como contraseñas o datos financieros.</li>
         </ul>
       </div>
+    </div>
+    <div class="d-flex justify-center">
+      <v-btn to="/curso1/temas/tema6" color="success" size="large" class="my-10">Ir al siguiente tema</v-btn>
     </div>
   </div>
 </template>

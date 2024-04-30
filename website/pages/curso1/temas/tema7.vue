@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h1>Modelo de Seguridad de Red</h1>
+    <h1 class="text-center mb-5 font-weight-bold">Modelo de Seguridad de Red</h1>
     <div class="model">
       <p>Un modelo de seguridad de red es una estructura conceptual que define cómo se diseñan, implementan y gestionan las medidas de seguridad en una red de computadoras. Estos modelos proporcionan un marco para organizar y entender los diferentes aspectos de la seguridad de red, incluyendo la protección de datos, la gestión de identidad y acceso, y la detección y respuesta a amenazas.</p>
       <h2>Principales Componentes de un Modelo de Seguridad de Red</h2>
@@ -13,6 +13,9 @@
         <li><strong>Gestión de Identidad:</strong> Administra las identidades digitales de usuarios y dispositivos en la red. Los sistemas de gestión de identidades y accesos (IAM) se utilizan para gestionar el ciclo de vida de las cuentas de usuario, incluyendo la creación, modificación y eliminación de cuentas.</li>
         <li><strong>Detección y Respuesta a Amenazas:</strong> Detecta y responde a incidentes de seguridad de manera oportuna. Los sistemas de detección de intrusos (IDS) y los sistemas de gestión de incidentes de seguridad (SIM) se utilizan para identificar y mitigar amenazas.</li>
       </ol>
+    </div>
+    <div class="d-flex justify-center">
+      <v-btn to="/curso1/temas/tema8" color="success" size="large" class="my-10">Ir al siguiente tema</v-btn>
     </div>
   </div>
 </template>

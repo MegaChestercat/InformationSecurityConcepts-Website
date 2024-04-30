@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h1>Métodos Biométricos para la Defensa</h1>
+    <h1 class="text-center mb-5 font-weight-bold">Métodos Biométricos para la Defensa</h1>
     <div class="methods">
       <p>Los métodos biométricos son técnicas de autenticación que se basan en características físicas o comportamentales únicas de los individuos. Estos métodos se utilizan en la seguridad para verificar la identidad de las personas y proteger los sistemas contra accesos no autorizados. Algunos de los métodos biométricos más comunes incluyen:</p>
       <ul>
@@ -10,6 +10,9 @@
         <li><strong>Reconocimiento de Voz:</strong> Analiza las características únicas de la voz de una persona, como el tono, la frecuencia y el patrón de habla, para verificar su identidad. Los sistemas de reconocimiento de voz se utilizan en aplicaciones de autenticación telefónica y control de voz en dispositivos inteligentes.</li>
         <li><strong>Reconocimiento de Venas:</strong> Examina el patrón de las venas debajo de la piel para autenticar a los usuarios. Este método es menos común que otros métodos biométricos, pero ofrece un alto nivel de precisión y seguridad.</li>
       </ul>
+    </div>
+    <div class="d-flex justify-center">
+      <v-btn to="/curso1/dashboard" color="success" size="large" class="my-10">Finalizar Curso</v-btn>
     </div>
   </div>
 </template>

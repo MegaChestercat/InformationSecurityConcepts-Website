@@ -63,6 +63,9 @@
       <div class="texto threat">
         <p>En resumen, un enfoque integral para la detección de intrusos combina el uso de firmas, modelos de comportamiento y análisis de anomalías para identificar y responder a actividades maliciosas en sistemas informáticos y redes. Esto implica una combinación de tecnologías, procesos y políticas para proteger eficazmente los activos digitales de una organización contra las amenazas cibernéticas.</p>
       </div>
+      <div class="d-flex justify-center">
+        <v-btn to="/curso2/temas/tema4" color="success" size="large" class="my-10">Ir al siguiente tema</v-btn>
+      </div>
     </div>
   </template>
 

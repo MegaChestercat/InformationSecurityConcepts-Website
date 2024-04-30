@@ -48,6 +48,9 @@
             <li><strong>Ética y Legalidad:</strong> Es importante tener una comprensión clara de lo que es ético y legal en el ámbito del hacking. Los hackers éticos deben operar dentro de los límites legales y éticos para garantizar que su trabajo contribuya positivamente a la seguridad informática.</li>
         </ol>
       </div>
+      <div class="d-flex justify-center">
+            <v-btn to="/curso2/temas/tema2" color="success" size="large" class="my-10">Ir al siguiente tema</v-btn>
+        </div>
     </div>
   </template>
   

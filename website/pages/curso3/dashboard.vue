@@ -89,13 +89,6 @@
                 </v-sheet>
             </v-menu>
 
-            <v-sheet :elevation="5" width="75vw" height="150" class="ml-15 my-10 rounded-xl" >
-                <div class="d-flex align-center fill-height">
-                    <p class="ml-8 text-black text-h5 font-weight-bold">Prueba General</p>
-                    <v-icon class="option ml-4" size="x-large">mdi-arrow-right</v-icon>
-                </div>
-            </v-sheet>
-
             <v-menu>
         <template v-slot:activator="{ props: menu }">
           <v-sheet :elevation="5" width="75vw" height="150" class="ml-15 my-10 rounded-xl" v-bind="menu">
@@ -109,8 +102,7 @@
           <!-- Aquí puedes agregar las opciones del menú para Contenido Adicional -->
           <!-- Por ejemplo: -->
           <v-sheet :elevation="5" width="75vw" height="350" class="mx-15 mt-8 rounded-xl">
-  <NuxtLink to="" style="text-decoration: none;">
-    <div class="d-flex align-center fill-height">
+            <div class="d-flex align-center fill-height">
       <!-- Vista previa del video de YouTube -->
       <iframe width="560" height="315" src="https://www.youtube.com/embed/uzGzSHGip_o?si=J9KCz5p89BDTldPm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -120,38 +112,28 @@
         
       </div>
     </div>
-  </NuxtLink>
 </v-sheet>
 
           <v-sheet :elevation="5" width="75vw" height="350" class="mx-15 mt-8 rounded-xl">
-            <NuxtLink to="/curso2/contenido-adicional/opcion1" style="text-decoration: none;">
-              <div class="d-flex align-center fill-height">
+            <div class="d-flex align-center fill-height">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/WjATtFxR2F0?si=a2f1vof8lzgp7KRy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 <p class="ml-8 text-black text-h5 font-weight-bold">Tema: Técnicas de Substitución</p>
                 
               </div>
-             
-            </NuxtLink>
           </v-sheet>
           <v-sheet :elevation="5" width="75vw" height="350" class="mx-15 mt-8 rounded-xl">
-            <NuxtLink to="/curso2/contenido-adicional/opcion1" style="text-decoration: none;">
-              <div class="d-flex align-center fill-height">
+            <div class="d-flex align-center fill-height">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/3gnJtKNbM-A?si=pbQ0ZWdY_i6oe3TK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 <p class="ml-8 text-black text-h5 font-weight-bold">Tema: Esteganografía</p>
                 
-              </div>
-             
-            </NuxtLink>
+            </div>
           </v-sheet>
           <v-sheet :elevation="5" width="75vw" height="350" class="mx-15 mt-8 rounded-xl">
-            <NuxtLink to="/curso2/contenido-adicional/opcion1" style="text-decoration: none;">
-              <div class="d-flex align-center fill-height">
+            <div class="d-flex align-center fill-height">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/LPWRerMSQHs?si=-wR59IHrSlPEtOEQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 <p class="ml-8 text-black text-h5 font-weight-bold">Tema: DES</p>
                 
-              </div>
-             
-            </NuxtLink>
+            </div>
           </v-sheet>
           
          

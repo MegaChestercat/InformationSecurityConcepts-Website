@@ -55,5 +55,8 @@
     <div class="texto threat">
         <p>En conclusión, tanto los honeypots como las herramientas de sniffing son herramientas valiosas en la detección de intrusos, pero deben utilizarse con cuidado y junto con otras técnicas de seguridad para mitigar los falsos positivos y negativos, y para hacer frente a las limitaciones y evasiones potenciales de los IDS.</p>
     </div>
+    <div class="d-flex justify-center">
+        <v-btn to="/curso2/temas/tema5" color="success" size="large" class="my-10">Ir al siguiente tema</v-btn>
+    </div>
   </div>
 </template>

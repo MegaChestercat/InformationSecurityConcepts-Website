@@ -42,7 +42,9 @@
       <div class="texto threat">
         <p>En resumen, los sistemas de detección y prevención de intrusos son herramientas esenciales en la ciberseguridad moderna, ya que ayudan a proteger sistemas informáticos y redes contra una amplia gama de amenazas y ataques.</p>
       </div>
-
+      <div class="d-flex justify-center">
+            <v-btn to="/curso2/temas/tema3" color="success" size="large" class="my-10">Ir al siguiente tema</v-btn>
+        </div>
     </div>
   </template>
   

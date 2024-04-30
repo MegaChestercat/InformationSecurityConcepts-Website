@@ -34,7 +34,9 @@
       <div class="texto threat">
         <p>En resumen, desde los fundamentos del hacking y la detección de intrusos hasta las amenazas avanzadas como los ataques DDoS y el software malicioso, hemos explorado los aspectos clave de la ciberseguridad y cómo proteger eficazmente los sistemas y datos contra estas amenazas en evolución constante.</p>
       </div>
-
+      <div class="d-flex justify-center">
+        <v-btn to="/curso2/dashboard" color="success" size="large" class="my-10">Finalizar Curso</v-btn>
+      </div>
     </div>
   </template>
   

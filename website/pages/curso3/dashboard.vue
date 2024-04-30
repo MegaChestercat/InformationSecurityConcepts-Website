@@ -4,8 +4,8 @@
             <v-img height="270" width="100vw" src="~~/assets/auth_bg.png" cover>
                <div class="d-flex justify-center align-center fill-height">
                 <div class="d-block">
-                    <p class="text-white text-center text-h3 font-weight-bold">Fundamentos I</p>
-                    <p class="text-white text-center text-subtitle-2 font-weight-bold mt-5">Este módulo presenta información con respecto a temas introductorios de seguridad informática para sentar las bases para temas subsecuentes.</p>
+                    <p class="text-white text-center text-h3 font-weight-bold">Cifrado Simétrico</p>
+                    <p class="text-white text-center text-subtitle-2 font-weight-bold mt-5">Este módulo presenta conceptos enfocados a la encriptación, los primeros cifrados y la explicación sobre el cifrado de Data Encryption Standard (DES).</p>
                 </div>
                </div>
             </v-img>
@@ -23,7 +23,7 @@
                 </template>
                 <v-sheet>
                     <v-sheet :elevation="5" width="75vw" height="150" class="mx-15 mt-8 rounded-xl">
-                        <NuxtLink to="/curso1/temas/tema1" style="text-decoration: none;">
+                        <NuxtLink to="/curso3/temas/tema1" style="text-decoration: none;">
                             <div class="d-flex align-center fill-height">
                                 <p class="ml-8 text-black text-h5 font-weight-bold">III.1 Introducción</p>
                                 <v-icon class="option ml-4" size="x-large">mdi-arrow-right</v-icon>
@@ -31,7 +31,7 @@
                         </NuxtLink>
                     </v-sheet>
                     <v-sheet :elevation="5" width="75vw" height="150" class="mx-15 my-10 rounded-xl">
-                        <NuxtLink to="/curso1/temas/tema1" style="text-decoration: none;">
+                        <NuxtLink to="/curso3/temas/tema2" style="text-decoration: none;">
                             <div class="d-flex align-center fill-height">
                                 <p class="ml-8 text-black text-h5 font-weight-bold">III.2 Modelo de Cifrado Simétrico</p>
                                 <v-icon class="option ml-4" size="x-large">mdi-arrow-right</v-icon>
@@ -39,7 +39,7 @@
                         </NuxtLink>
                     </v-sheet>
                     <v-sheet :elevation="5" width="75vw" height="150" class="mx-15 my-10 rounded-xl" >
-                        <NuxtLink to="/curso1/temas/tema1" style="text-decoration: none;">
+                        <NuxtLink to="/curso3/temas/tema3" style="text-decoration: none;">
                             <div class="d-flex align-center fill-height">
                                 <p class="ml-8 text-black text-h5 font-weight-bold">III.3 Técnicas de Sustitución</p>
                                 <v-icon class="option ml-4" size="x-large">mdi-arrow-right</v-icon>
@@ -47,7 +47,7 @@
                         </NuxtLink>
                     </v-sheet>
                     <v-sheet :elevation="5" width="75vw" height="150" class="mx-15 my-10 rounded-xl" >
-                        <NuxtLink to="/curso1/temas/tema1" style="text-decoration: none;">
+                        <NuxtLink to="/curso3/temas/tema4" style="text-decoration: none;">
                             <div class="d-flex align-center fill-height">
                                 <p class="ml-8 text-black text-h5 font-weight-bold">III.4 Técnicas de Transposición</p>
                                 <v-icon class="option ml-4" size="x-large">mdi-arrow-right</v-icon>
@@ -55,7 +55,7 @@
                         </NuxtLink>
                     </v-sheet>
                     <v-sheet :elevation="5" width="75vw" height="150" class="mx-15 my-10 rounded-xl" >
-                        <NuxtLink to="/curso1/temas/tema1" style="text-decoration: none;">
+                        <NuxtLink to="/curso3/temas/tema5" style="text-decoration: none;">
                             <div class="d-flex align-center fill-height">
                                 <p class="ml-8 text-black text-h5 font-weight-bold">III.5 Esteganografía</p>
                                 <v-icon class="option ml-4" size="x-large">mdi-arrow-right</v-icon>
@@ -63,7 +63,7 @@
                         </NuxtLink>
                     </v-sheet>
                     <v-sheet :elevation="5" width="75vw" height="150" class="mx-15 my-10 rounded-xl" >
-                        <NuxtLink to="/curso1/temas/tema1" style="text-decoration: none;">
+                        <NuxtLink to="/curso3/temas/tema6" style="text-decoration: none;">
                             <div class="d-flex align-center fill-height">
                                 <p class="ml-8 text-black text-h5 font-weight-bold">III.6 Data Encryption Standard (DES)</p>
                                 <v-icon class="option ml-4" size="x-large">mdi-arrow-right</v-icon>
@@ -71,7 +71,7 @@
                         </NuxtLink>
                     </v-sheet>
                     <v-sheet :elevation="5" width="75vw" height="150" class="mx-15 my-10 rounded-xl" >
-                        <NuxtLink to="/curso1/temas/tema1" style="text-decoration: none;">
+                        <NuxtLink to="/curso3/temas/tema7" style="text-decoration: none;">
                             <div class="d-flex align-center fill-height">
                                 <p class="ml-8 text-black text-h5 font-weight-bold">III.7 Un Ejemplo del DES</p>
                                 <v-icon class="option ml-4" size="x-large">mdi-arrow-right</v-icon>
@@ -79,7 +79,7 @@
                         </NuxtLink>
                     </v-sheet>
                     <v-sheet :elevation="5" width="75vw" height="150" class="mx-15 my-10 rounded-xl" >
-                        <NuxtLink to="/curso1/temas/tema1" style="text-decoration: none;">
+                        <NuxtLink to="/curso3/temas/tema8" style="text-decoration: none;">
                             <div class="d-flex align-center fill-height">
                                 <p class="ml-8 text-black text-h5 font-weight-bold">III.8 La Fuerza del DES y del DES Triple</p>
                                 <v-icon class="option ml-4" size="x-large">mdi-arrow-right</v-icon>

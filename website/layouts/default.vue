@@ -11,6 +11,7 @@
                 <NuxtLink to="/cursos" style="text-decoration: none;">
                     <v-list-item class="link my-10 ml-6" prepend-icon="mdi-book-education-outline" title="Cursos"> </v-list-item>
                 </NuxtLink>
+                <!--
                 <NuxtLink to="/perfil" style="text-decoration: none;">
                     <v-list-item class="link my-10 ml-6" prepend-icon="mdi-account-circle" title="Perfil"> </v-list-item>
                 </NuxtLink>
@@ -20,7 +21,7 @@
                 </v-btn>
                 <v-btn to="/register" rounded="lg" width="70%"prepend-icon="mdi-account-plus" class="mt-5 mx-8">
                     <p>Registrase</p>
-                </v-btn>
+                </v-btn>-->
             </v-list>
         </v-navigation-drawer>
         <v-main>

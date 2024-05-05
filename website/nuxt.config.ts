@@ -5,9 +5,6 @@ import { defineNuxtConfig } from 'nuxt/config'
 export default defineNuxtConfig({
   //...
   devtools: { enabled: false },
-  runtimeConfig: {
-    MONGO_URI: process.env.MONGODB_URI
-  },
   css:[
     'vuetify/lib/styles/main.sass',
     "@mdi/font/css/materialdesignicons.css"
@@ -25,8 +22,6 @@ export default defineNuxtConfig({
         config.plugins.push(vuetify({ autoImport: true }))
       })
     },
-    //...
-    '@vee-validate/nuxt',
   ],
   vite: {
     vue: {
